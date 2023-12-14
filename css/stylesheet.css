@@ -1,0 +1,98 @@
+.card {
+   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+   transform: scale(1.05);
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+body {
+   font-family: "Arial", sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #f4f4f4;
+}
+
+header {
+   background-color: #570f61;
+   color: #fff;
+   text-align: center;
+   padding: 10px 0;
+}
+
+main {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+}
+
+.course-container {
+   display: flex;
+   width: 100%;
+   background-color: #fff;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   border-radius: 8px;
+   overflow: hidden;
+}
+
+.course-icon {
+   flex: 1;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #570f61;
+   color: #fff;
+}
+
+.course-details {
+   flex: 2;
+   padding: 20px;
+}
+
+.course-details h2 {
+   color: rgb(141, 90, 148);
+}
+
+.info-item {
+   margin-bottom: 10px;
+}
+
+.purple {
+   background-color: rgb(141, 90, 148);
+}
+
+
+.custom-button {
+   background-color: #8e44ad; 
+   color: #fff; 
+   border: none;
+   padding: 10px 20px; 
+   border-radius: 20px; 
+   cursor: pointer;
+   font-size: 16px;
+   transition: background-color 0.3s ease-in-out;
+}
+
+
+.custom-button:hover {
+   background-color: #6c3483;
+}
+
+.delete-button{
+   background-color: rgb(146, 8, 8); 
+   color: #fff; 
+   border: none;
+   padding: 10px 20px; 
+   border-radius: 20px; 
+   cursor: pointer;
+   font-size: 16px;
+   transition: background-color 0.3s ease-in-out;
+}
+
+.delete-button:hover {
+   background-color: rgb(110, 6, 6);
+}
+
+
